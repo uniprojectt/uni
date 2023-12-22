@@ -1,0 +1,30 @@
+h1{color: rgb(48, 148, 155);
+    text-align: center; box-shadow: 5px 5px 8px 8px hwb(194 17% 11%) inset;}
+    h2{ color: rgb(146, 33, 150); box-shadow: 5px 5px 15px 15px hwb(194 15% 25%),10px 10px 10px 10px rgb(168, 26, 149);
+    padding: 10px; border-radius: 100px; margin: 10px; }
+    img{ box-shadow: 5px 5px 20px 20px hwb(204 17% 11%) ;}
+button {
+    background: rgb(23, 195, 201);
+    color: snow;
+    border: 1px solid #3498db;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    left: 7px;
+    border-radius: 25px;
+    padding: 6px 20px;
+    margin: 15px 0px 10px 0px;
+    font-size: 18px;
+    padding: 16px 35px;
+  }
+  
+  button:active {
+    background-color: rgb(48, 121, 123);
+    color: rgb(10, 64, 66);
+  }
+  button:hover {
+    transition-timing-function: ease-in;
+    color: #fff;
+    background: rgb(31, 75, 76);
+    cursor: pointer;
+  }
+

@@ -1,0 +1,118 @@
+*{
+box-sizing: border-box;
+}
+body{
+    color: white;
+    } 
+    .a{
+    padding-left:50px;
+    }
+    a#head,#back{
+      text-decoration: none;
+      color: white;
+    }
+    section{
+            padding: 100px 200px;
+
+    }
+    .main{
+      
+      font-size: 2em;
+      min-height: 120vh;
+       display:flex;
+      align-items: center;
+      background: url(photo/main.jpg) no-repeat;
+      background-size: cover;
+   
+      background-attachment: fixed;
+  }
+  pre.title{
+    font-size: 30px;
+    color: #008EA8;
+    letter-spacing: 4px;
+  }
+  pre.dis{font-size: 15px;}
+  .bot,#back{
+  background-color:#008EA0;
+  font-size: 30px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  transition: 0.7s ease;
+  
+  
+  }
+  .bot,#back:hover{
+    background-color:#008EA8;
+    transform:scale(1.1);
+  }
+  
+  .sub{
+    background-color: white;
+    color:#008EA8 ;
+  }
+  h2.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 50px;
+  }
+  .contact{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.contact a{
+      margin:40px;
+      box-shadow: 0 5px 25px rgba(1 1 1/20%);
+      border-radius: 10px;
+      transition: 0.7s ease;
+      text-decoration: none;
+
+}
+.contact a:hover{
+  transform:scale(1.1);
+  
+}
+footer{
+  width: 100%;
+  background-color: #008EA0;
+  padding: 1em;
+  
+}
+footer p{
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+img.logo{
+  height: 150px;
+}
+
+h3{
+      color:#008EA8 ;
+      text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+@media(max-width: 1023px){
+  header{
+    padding: 12px 20px;
+}
+section{padding: 40px 20px;
+}
+.main{
+  font-size: 1em;
+}
+}
